@@ -3,57 +3,62 @@ import { ToDoListStructure } from "../../types";
 const ToDos: ToDoListStructure = [
   {
     id: 1,
-    name: "Buy bread",
+    name: "buy bread",
     isDone: false,
   },
   {
     id: 2,
-    name: "Buy butter",
+    name: "buy butter",
     isDone: false,
   },
   {
     id: 3,
-    name: "Buy juice",
+    name: "buy coffee",
     isDone: false,
   },
   {
     id: 4,
-    name: "Buy coffee",
-    isDone: false,
-  },
-  {
-    id: 1,
-    name: "sacar al perro",
-    isDone: false,
-  },
-  {
-    id: 2,
-    name: "sacar lavavajillas",
-    isDone: true,
-  },
-  {
-    id: 3,
-    name: "tender ropa",
-    isDone: true,
-  },
-  {
-    id: 4,
-    name: "llamar abuelita",
+    name: "go to the Mercadona",
     isDone: false,
   },
   {
     id: 5,
-    name: "repasar redux",
-    isDone: false,
+    name: "wash the dishes",
+    isDone: true,
   },
   {
     id: 6,
-    name: "leer documentación de custom hook",
+    name: "clean the house",
     isDone: true,
   },
   {
     id: 7,
-    name: "dormir...",
+    name: "call parents",
+    isDone: false,
+  },
+  {
+    id: 8,
+    name: "study redux",
+    isDone: false,
+  },
+  {
+    id: 9,
+    name: "RTFM again",
+    isDone: true,
+  },
+  {
+    id: 10,
+    name: "try to sleep",
+    isDone: false,
+  },
+  {
+    id: 11,
+    name: "Take a shower",
+    isDone: false,
+  },
+  {
+    id: 12,
+    name: "Test the feature",
     isDone: false,
   },
 ];

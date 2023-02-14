@@ -11,6 +11,7 @@
   background-color: #777;
   color: #fff;
   border-radius: 10px 10px 0 0;
+  text-transform: capitalize;
 }
 
 .task-card__actions {
@@ -20,4 +21,10 @@
   background-color: #373737;
   color: #fff;
   border-radius: 0 0 10px 10px;
+}
+
+.card-odd {
+  background-color: #7a6b8b;
+  border-radius: 10px 10px 0 0;
+  text-transform: capitalize;
 }
