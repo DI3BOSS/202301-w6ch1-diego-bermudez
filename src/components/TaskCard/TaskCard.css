@@ -1,0 +1,23 @@
+.task-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-card__task {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 350px;
+  background-color: #777;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.task-card__actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #373737;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
