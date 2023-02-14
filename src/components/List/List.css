@@ -1,0 +1,13 @@
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.task-list__task {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}

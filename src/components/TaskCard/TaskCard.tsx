@@ -6,13 +6,15 @@ interface CardTaskProps {
   toDo: ToDoStructure;
 }
 
-const CardTask = ({
+const TaskCard = ({
   toDo: { id, isDone, name },
 }: CardTaskProps): JSX.Element => {
   return (
     <>
       <article className="task-card">
-        <div className="task-card__task">
+        <div
+          className={`task-card__task card${id % 2 !== 0 ? "-odd" : "-pair"}`}
+        >
           <h2 aria-label="Task description">
             {id} {name}
           </h2>
@@ -26,4 +28,4 @@ const CardTask = ({
   );
 };
 
-export default CardTask;
+export default TaskCard;
