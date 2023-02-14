@@ -3,7 +3,7 @@ import { ToDoListStructure } from "../../types";
 import ToDos from "../Data/ToDos";
 
 export const ToDoSlice = createSlice({
-  name: "toDo", // prefijo del type de la action/
+  name: "toDo",
   initialState: ToDos,
   reducers: {
     loadToDo: (
