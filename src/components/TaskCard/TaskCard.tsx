@@ -13,9 +13,9 @@ const CardTask = ({
     <>
       <article className="task-card">
         <div className="task-card__task">
-          <span>
+          <h2 aria-label="Task description">
             {id} {name}
-          </span>
+          </h2>
           <span>{isDone}✅</span>
         </div>
         <div className="task-card__actions">
